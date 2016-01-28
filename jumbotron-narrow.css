@@ -22,16 +22,16 @@ body {
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
-  margin-top: 0;
+  margin-top: 100px;
   margin-bottom: 0;
   line-height: 40px;
 }
 
-/* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid pink;
+  margin-left: 30px;
 }
 
 /* Customize container */
@@ -81,9 +81,18 @@ body {
     border-bottom: 0;
   }
 }
-
-#image_thing /*or use: .featurette-divider img {} */{
+ /*or use: .featurette-divider img {} */
+#image_thing {
 	
 	height: 100%;
 	
+}
+
+.col-lg-4 {
+	max-width: none;
+	margin-right: 20px;
+}
+
+.row {
+	width: 100%;
 }
